@@ -1,2 +1,2 @@
 # Portfolio-Website
-🌐 A personal portfolio website built with React and Tailwind CSS. Showcases my projects, skills, and contact information in a clean, responsive design.
+✨ A personal portfolio website showcasing my skills, projects, and contact information. Built to highlight my work and provide an interactive way for visitors to learn more about me.
