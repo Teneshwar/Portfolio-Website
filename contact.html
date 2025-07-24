@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+   <style> 
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(6, 6, 45);
+}
+.headertext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+.Portfolio{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 140px;
+}
+.headerthings{
+     display: flex;
+     align-items: center;
+     margin-right: 140px;
+     gap: 30px;
+}
+.headerthingstext{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(6, 6, 45);;
+    transition: transform 0.2s ease, backgorund-color 0.3s ease;
+}
+
+.headerthingstext:hover {
+    transform: scale(0.95);
+    color: rgb(13, 212, 212);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+input[type="text"],input[type="email"],input[type="number"]{
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+#Description{
+    height: 100px;
+}
+form button{
+    width:10%;
+    height: 40px;
+    padding-top:3px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight:bold;
+    background: rgb(13, 212, 212);
+    transition: transform 0.2s ease,backgorund-color 0.3s ease;
+}
+form button:hover{
+    transform: scale(0.95);
+    background-color: rgb(13, 212, 212);
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="headertext">
+            <a href="index.html" class="Portfolio">Protfolio</a>
+            <div class="headerthings">
+                <div class="headerhome">
+                    <a href="index.html" Class="headerthingstext" id="Home">Home</a>
+                </div>
+                <div class="headerabout" >
+                    <a href="" Class="headerthingstext" id="About">About</a>
+                </div>
+                <div class="headerporfolio" >
+                    <a href="" Class="headerthingstext" id="Portfolio">Portfolio</a>
+                </div>
+                <div class="headercontact" >
+                    <a href="" Class="headerthingstext" id="Contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box">
+                 <form action="">
+                    <input type="text" placeholder="EnterName">
+                    <input type="email"placeholder="Email">
+                    <input type="number" placeholder="phoneNo">
+                    <input type="text" placeholder="Description" id="Description">
+                    <button>Send Message</button>
+                 </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
