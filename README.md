@@ -15,24 +15,35 @@
 ## 📁 Folder Structure
 
 ├──AutoMeetingTool/
+
 ├──images/ # All portfolio images
+
 ├── contact.html # Contact page
+
 ├── Portfolio.html # Project showcase
+
 ├── index.html # Main homepage
+
 ├── inde1x.html # Extra/backup homepage
+
 ├── index2.html # Experimental or alternate home
+
 ├── style.css # Main stylesheet
+
 ├── styl1e.css # Alternate/experimental style
+
 ├── style2.css # Extra stylesheet
+
 ├── script.js # Empty JS file (currently unused)
+
 ├── js_script.js # Main JS logic
+
 ├── scrip1t.js # Secondary JS logic
+
 ├── script2.js # Large JS file (likely effects or custom logic)
+
 └── README.md # This file
 
-## 🌍 Live Demo
-
-👉 [View Portfolio Website](https://teneshwar.github.io/Portfolio-Website/)  
 
 ## 🛠️ Tech Stack
 
